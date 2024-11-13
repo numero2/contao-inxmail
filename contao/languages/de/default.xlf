@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<xliff version="1.1">
+<file>
+<body>
+    <trans-unit id="INXMAIL.group_label.standard_contact_field">
+        <target>Standard</target>
+    </trans-unit>
+    <trans-unit id="INXMAIL.group_label.custom_contact_field">
+        <target>Benutzerdefiniert</target>
+    </trans-unit>
+    <trans-unit id="INXMAIL.attribute_label.max_length">
+        <target>(maximale Eingabelänge: %s)</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

@@ -1,0 +1,24 @@
+services:
+    _defaults:
+        autoconfigure: true
+        public: true
+
+
+    numero2_inxmail.listener.data_container.form_field:
+        class: numero2\InxmailBundle\EventListener\DataContainer\FormFieldListener
+        arguments:
+            - '@request_stack'
+            - '@contao.routing.scope_matcher'
+            - '@database_connection'
+            - '@numero2_inxmail.api.inxmail'
+            - '@translator'
+
+
+    numero2_inxmail.listener.hook.form:
+        class: numero2\InxmailBundle\EventListener\Hook\FormListener
+        arguments:
+            - '@request_stack'
+            - '@database_connection'
+            - '@contao.insert_tag.parser'
+            - '@numero2_inxmail.api.inxmail'
+            - '@monolog.logger.contao.general'

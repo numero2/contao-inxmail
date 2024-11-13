@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- LEGENDS -->
+    <trans-unit id="tl_form.inxmail_legend">
+        <target>Inxmail</target>
+    </trans-unit>
+    <!-- FIELDS -->
+    <trans-unit id="tl_form.sendToInxmail.0">
+        <target>Send to Inxmail</target>
+    </trans-unit>
+    <trans-unit id="tl_form.sendToInxmail.1">
+        <target>Send the form data to Inxmail to create or update a subscription.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_customer.0">
+        <target>Customer</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_customer.1">
+        <target>Please enter your Customer for Inxmail.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_client_id.0">
+        <target>Client ID</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_client_id.1">
+        <target>Please enter your cClient ID for Inxmail.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_secret.0">
+        <target>Secret</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_secret.1">
+        <target>Please enter your Secret for Inxmail.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_list_id.0">
+        <target>List ID</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_list_id.1">
+        <target>Please enter the list ID the recipient shall be subscribed to at Inxmail.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_src.0">
+        <target>Source</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_src.1">
+        <target>An identifier for the source of this subscription.</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

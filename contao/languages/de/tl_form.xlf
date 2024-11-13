@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- LEGENDS -->
+    <trans-unit id="tl_form.inxmail_legend">
+        <target>Inxmail</target>
+    </trans-unit>
+    <!-- FIELDS -->
+    <trans-unit id="tl_form.sendToInxmail.0">
+        <target>An Inxmail senden</target>
+    </trans-unit>
+    <trans-unit id="tl_form.sendToInxmail.1">
+        <target>Senden Sie die Formulardaten an Inxmail, um einen Kontakt zu erstellen oder zu aktualisieren und optional einen Double-Opt-In-Prozess (DOI) auszulösen.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_customer.0">
+        <target>Kundenname</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_customer.1">
+        <target>Bitte geben Sie Ihren Kundennamen bzw. Ihren REST-API Mandanten bei Inxmail ein.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_client_id.0">
+        <target>Benutzername</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_client_id.1">
+        <target>Bitte geben Sie Ihren Benutzernamen für die REST API bei Inxmail ein.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_secret.0">
+        <target>Passwort</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_secret.1">
+        <target>Bitte geben Sie Ihr Passwort für die REST API bei Inxmail ein.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_list_id.0">
+        <target>Listen ID</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_list_id.1">
+        <target>Bitte geben Sie die Listen ID ein zu dieser wird der Empfänger bei Inxmail hinzugefügt.</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_src.0">
+        <target>Quelle</target>
+    </trans-unit>
+    <trans-unit id="tl_form.inxmail_src.1">
+        <target>Eine Bezeichnung, die die Quelle des Empfängers beschreiben soll. Falls angegeben, wird die Bezeichnung mit dem DOI-Prozess gespeichert.</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>

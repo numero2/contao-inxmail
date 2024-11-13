@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<xliff version="1.1">
+<file>
+<body>
+    <!-- FIELDS -->
+    <trans-unit id="tl_form_field.inxmail_field_name.0">
+        <target>Field at Inxmail</target>
+    </trans-unit>
+    <trans-unit id="tl_form_field.inxmail_field_name.1">
+        <target>Select the appropriate field from Inxmail. If no field is selected, this field will not be transferred to Inxmail.</target>
+    </trans-unit>
+</body>
+</file>
+</xliff>
