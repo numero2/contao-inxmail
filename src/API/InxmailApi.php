@@ -106,9 +106,9 @@ class InxmailApi {
      * @param array $data
      * @param array $settings
      *
-     * @return null|string
+     * @return null|array
      */
-    public function createEventSubscription( array $data, array $settings ): ?string {
+    public function createEventSubscription( array $data, array $settings ): ?array {
 
         $email = null;
         $attributes = [];
