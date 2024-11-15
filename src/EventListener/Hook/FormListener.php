@@ -140,7 +140,7 @@ class FormListener {
 
         $result = $this->inxmailApi->createEventSubscription($inxmailData, $inxmailSettings);
 
-        if( !etmpy($result) ) {
+        if( !empty($result) ) {
             $this->logger->info('Subscribed recipient at Inxmail.');
         } else {
             $this->logger->info('Subscribed recipient at Inxmail maybe failed. Please check for other errors!');
